@@ -1,0 +1,155 @@
+:root {
+  --dark-blue: #202C39;
+  --nice-blue: #1098F7;
+
+  --font-color: var(--dark-blue);
+  --accent-color: var(--nice-blue);
+}
+
+@font-face {
+  font-family: Montserrat-Black;
+  src: url('font/Montserrat/Montserrat-Black.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-ExtraBold;
+  src: url('font/Montserrat/Montserrat-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('font/Montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url('font/Montserrat/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url('font/Montserrat/Montserrat-Medium.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url('font/Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-Light;
+  src: url('font/Montserrat/Montserrat-Light.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-ExtraLight;
+  src: url('font/Montserrat/Montserrat-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-Thin;
+  src: url('font/Montserrat/Montserrat-Thin.ttf');
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat-Black, serif;
+}
+
+h2 {
+  margin: 0 0 10px 0;
+  padding: 10px 0;
+  font-family: Montserrat-Bold, serif;
+  color: var(--accent-color);
+  border-top: solid 3px var(--accent-color);
+  border-bottom: solid 3px var(--accent-color);
+}
+
+h3 {
+  margin: 0;
+  color: var(--accent-color);
+  font-family: Montserrat-Light, serif;
+}
+
+ul {
+  margin: 0;
+  padding-left: 35px;
+}
+
+body {
+  margin: 0;
+  font-family: Montserrat-Regular, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--font-color);
+}
+
+.resume {
+  width: 900px;
+  height: 100%;
+}
+
+.resumeHeader {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.resumeHeader__title {
+  color: var(--accent-color);
+  font-size: xx-large;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.leftColumn {
+  width: 35%;
+  margin-right: 25px;
+}
+
+.rightColumn {
+  flex: 1;
+}
+
+.resumeSection {
+  margin-bottom: 40px;
+}
+
+.workExperience {
+  margin-bottom: 25px;
+  margin-right: 25px;
+}
+
+.workExperience__row {
+  margin-bottom: 5px;
+}
+
+.sourceCodeSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.info img {
+  margin-right: 15px;
+}
+
+.skillGrid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skillList {
+  flex-basis: 50%;
+  margin-bottom: 15px;
+}
