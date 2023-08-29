@@ -25,11 +25,11 @@ export const ContactInfo: FC<ContactInfoProps> = (props) => {
     return (
         <div className="contactInfo">
             <Info
-                iconLink="https://image.flaticon.com/icons/png/512/69/69524.png"
+                iconLink="https://cdn-icons-png.flaticon.com/512/25/25694.png"
                 info={props.address}
             />
             <Info
-                iconLink="https://pics.freeicons.io/uploads/icons/png/7969340901574338609-512.png"
+                iconLink="https://cdn-icons-png.flaticon.com/512/3178/3178158.png"
                 info={props.email}
             />
             <Info
