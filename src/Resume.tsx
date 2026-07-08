@@ -58,7 +58,14 @@ export function Resume(props: ResumeProps) {
                                 <div className="skillGrid">
                                     <SkillList
                                         title="Languages/Libs/Frameworks"
-                                        items={["Typescript", "React", "Apollo GraphQL", "Relay", "NodeJS", "React Native"]}
+                                        items={[
+                                            "Typescript",
+                                            "React",
+                                            "Apollo GraphQL",
+                                            "Relay",
+                                            "NodeJS",
+                                            "React Native"
+                                        ]}
                                     />
                                     <SkillList
                                         title="Other"
@@ -82,13 +89,30 @@ export function Resume(props: ResumeProps) {
                                     employer="Coinbase"
                                 >
                                     <ul>
-                                        <li>As a technical lead, documented detailed designs for large multi-month spanning projects</li>
-                                        <li>Implemented reusable core modules containing shared code for both web and mobile applications</li>
-                                        <li>Improved observability of product with dashboards and automated, monitoring alerts</li>
-                                        <li>Optimized funnel performance using client analytics tools and A/B tests</li>
-                                        <li>Contributed to organization-wide client best practices guide</li>
+                                        <li>
+                                            As a technical lead, documented detailed designs for
+                                            large multi-month spanning projects
+                                        </li>
+                                        <li>
+                                            Implemented reusable core modules containing shared code
+                                            for both web and mobile applications
+                                        </li>
+                                        <li>
+                                            Improved observability of product with dashboards and
+                                            automated, monitoring alerts
+                                        </li>
+                                        <li>
+                                            Optimized funnel performance using client analytics
+                                            tools and A/B tests
+                                        </li>
+                                        <li>
+                                            Contributed to organization-wide client best practices
+                                            guide
+                                        </li>
                                         <li>Organized team-wide, full-stack engineering syncs</li>
-                                        <li>Mentored junior engineers as they onboarded to the team</li>
+                                        <li>
+                                            Mentored junior engineers as they onboarded to the team
+                                        </li>
                                     </ul>
                                 </WorkExperience>
                                 <WorkExperience
@@ -99,14 +123,18 @@ export function Resume(props: ResumeProps) {
                                 >
                                     <ul>
                                         <li>Managed a team of 5 direct reports</li>
-                                        <li>Coordinated project timelines with product, design, customers and other stakeholders</li>
+                                        <li>
+                                            Coordinated project timelines with product, design,
+                                            customers and other stakeholders
+                                        </li>
                                         <li>Led direction of application architecture</li>
                                         <li>
-                                            Educated developers on latest React news and best practices
+                                            Educated developers on latest React news and best
+                                            practices
                                         </li>
                                         <li>
-                                            Hosted company-wide 'Frontend Guild' meetings to
-                                            promote skill sharing and set a unified standard for application
+                                            Hosted company-wide 'Frontend Guild' meetings to promote
+                                            skill sharing and set a unified standard for application
                                             development
                                         </li>
                                     </ul>
@@ -119,12 +147,17 @@ export function Resume(props: ResumeProps) {
                                 >
                                     <ul>
                                         <li>
-                                            Implemented features across the stack with React, NodeJS and a SQL database.
+                                            Implemented features across the stack with React, NodeJS
+                                            and a SQL database.
                                         </li>
-                                        <li>Led a migration to Typescript for the entire application stack</li>
+                                        <li>
+                                            Led a migration to Typescript for the entire application
+                                            stack
+                                        </li>
                                         <li>Incrementally adopted GraphQL</li>
                                         <li>
-                                            Managed the complex build systems for several applications using tools such as Webpack and Babel
+                                            Managed the complex build systems for several
+                                            applications using tools such as Webpack and Babel
                                         </li>
                                     </ul>
                                 </WorkExperience>
@@ -135,8 +168,9 @@ export function Resume(props: ResumeProps) {
                                 >
                                     <a>https://github.com/E-Kuerschner/useAudioPlayer</a>
                                     <br />I am the creator and core contributor of a custom React
-                                    hook with over 250 Github stars. The hook
-                                    enables React developers to add sounds to their application through a clear and declarative API.
+                                    hook with over 250 Github stars. The hook enables React
+                                    developers to add sounds to their application through a clear
+                                    and declarative API.
                                 </WorkExperience>
                             </ResumeSection>
                             <ResumeSection title="Source Code">
